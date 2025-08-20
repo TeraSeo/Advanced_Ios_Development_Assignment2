@@ -94,6 +94,12 @@
 		C4CBBA802E559FDD007F475F /* Assignment2 */ = {
 			isa = PBXGroup;
 			children = (
+				C4CBBAB02E55A05B007F475F /* Resources */,
+				C4CBBAAF2E55A053007F475F /* Utilities */,
+				C4CBBAAE2E55A04A007F475F /* Views */,
+				C4CBBAAD2E55A042007F475F /* ViewModels */,
+				C4CBBAAC2E55A03A007F475F /* Protocols */,
+				C4CBBAAB2E55A031007F475F /* Models */,
 				C4CBBA812E559FDD007F475F /* Assignment2App.swift */,
 				C4CBBA832E559FDD007F475F /* ContentView.swift */,
 				C4CBBA852E559FDF007F475F /* Assets.xcassets */,
@@ -125,6 +131,48 @@
 				C4CBBA9E2E559FDF007F475F /* Assignment2UITestsLaunchTests.swift */,
 			);
 			path = Assignment2UITests;
+			sourceTree = "<group>";
+		};
+		C4CBBAAB2E55A031007F475F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		C4CBBAAC2E55A03A007F475F /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		C4CBBAAD2E55A042007F475F /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		C4CBBAAE2E55A04A007F475F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C4CBBAAF2E55A053007F475F /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		C4CBBAB02E55A05B007F475F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
