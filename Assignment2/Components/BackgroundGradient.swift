@@ -1,8 +1,11 @@
-//
-//  BackgroundGradient.swift
-//  Assignment2
-//
-//  Created by 서태준 on 9/5/25.
-//
+import SwiftUI
 
-import Foundation
+struct BackgroundGradient: View {
+    var body: some View {
+        LinearGradient(
+            gradient: Gradient(colors: [Color(.systemBackground), Color(.systemGray6).opacity(0.3)]),
+            startPoint: .top,
+            endPoint: .bottom
+        )
+    }
+}

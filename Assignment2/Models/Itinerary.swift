@@ -1,23 +1,34 @@
-//
-//  ItineraryItem.swift
-//  Assignment2
-//
-//  Created by 서태준 on 8/20/25.
-//
-
 import Foundation
 
-class ItineraryItem: Identifiable, ItineraryProtocol {
-    let id = UUID()
-    var title: String
-    var time: Date
-    var cost: Double
-    var category: String
+class Itinerary: Identifiable, Codable {
+    let id: UUID
+    var destination: String
+    var startDate: Date
+    var endDate: Date
+    var plans: [Plan]
     
-    init(title: String, time: Date, cost: Double, category: String) {
-        self.title = title
-        self.time = time
-        self.cost = cost
-        self.category = category
+    init(destination: String, startDate: Date, endDate: Date, plans: [Plan] = []) {
+        self.id = UUID()
+        self.destination = destination
+        self.startDate = startDate
+        self.endDate = endDate
+        self.plans = plans
+    }
+    
+    var numberOfDays: Int {
+        Calendar.current.dateComponents([.day], from: startDate, to: endDate).day ?? 0
+    }
+    
+    var totalBudget: Double {
+        plans.reduce(0) { $0 + $1.budget.amount }
+    }
+    
+    var budgetBreakdown: [BudgetCategory: Double] {
+        var breakdown: [BudgetCategory: Double] = [:]
+        for plan in plans {
+            let category = plan.budget.category
+            breakdown[category, default: 0] += plan.budget.amount
+        }
+        return breakdown
     }
 }

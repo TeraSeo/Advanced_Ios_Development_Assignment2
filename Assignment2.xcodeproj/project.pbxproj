@@ -7,13 +7,52 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C42E71302E6ADC6F00625AC1 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = C42E712F2E6ADC6F00625AC1 /* README.md */; };
 		C4CBBA822E559FDD007F475F /* Assignment2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CBBA812E559FDD007F475F /* Assignment2App.swift */; };
 		C4CBBA842E559FDD007F475F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CBBA832E559FDD007F475F /* ContentView.swift */; };
 		C4CBBA862E559FDF007F475F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4CBBA852E559FDF007F475F /* Assets.xcassets */; };
 		C4CBBA892E559FDF007F475F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4CBBA882E559FDF007F475F /* Preview Assets.xcassets */; };
 		C4CBBA932E559FDF007F475F /* Assignment2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CBBA922E559FDF007F475F /* Assignment2Tests.swift */; };
 		C4CBBA9D2E559FDF007F475F /* Assignment2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CBBA9C2E559FDF007F475F /* Assignment2UITests.swift */; };
-		C4CBBA9F2E559FDF007F475F /* Assignment2UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CBBA9E2E559FDF007F475F /* Assignment2UITestsLaunchTests.swift */; };
+		C4CBBAB22E55ABB6007F475F /* Itinerary.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CBBAB12E55ABB6007F475F /* Itinerary.swift */; };
+		C4CBBAB42E55ABF9007F475F /* ItineraryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CBBAB32E55ABF9007F475F /* ItineraryProtocol.swift */; };
+		C4CBBAB62E55AC31007F475F /* ItineraryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CBBAB52E55AC31007F475F /* ItineraryViewModel.swift */; };
+		C4CBBAB92E55AD08007F475F /* ItineraryListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CBBAB82E55AD08007F475F /* ItineraryListView.swift */; };
+		C4CBBABB2E55AD24007F475F /* AddItineraryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CBBABA2E55AD24007F475F /* AddItineraryView.swift */; };
+		C4CBBABD2E55B06A007F475F /* Plan.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CBBABC2E55B06A007F475F /* Plan.swift */; };
+		C4CBBABF2E55B07A007F475F /* Budget.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CBBABE2E55B07A007F475F /* Budget.swift */; };
+		C4CBBAC12E655B17007F475F /* ItineraryDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CBBAC02E655B17007F475F /* ItineraryDetailView.swift */; };
+		C4CBBAC32E6AAD58007F475F /* EditItineraryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CBBAC22E6AAD58007F475F /* EditItineraryView.swift */; };
+		C4CBBAC52E6AAF63007F475F /* BudgetCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CBBAC42E6AAF63007F475F /* BudgetCategory.swift */; };
+		C4CBBAC72E6AAF7E007F475F /* AccommodationBudget.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CBBAC62E6AAF7E007F475F /* AccommodationBudget.swift */; };
+		C4CBBAC92E6AAF99007F475F /* FoodDrinkBudget.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CBBAC82E6AAF99007F475F /* FoodDrinkBudget.swift */; };
+		C4CBBACB2E6AAFB3007F475F /* TransportBudget.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CBBACA2E6AAFB3007F475F /* TransportBudget.swift */; };
+		C4CBBACD2E6AAFCB007F475F /* ExtrasBudget.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CBBACC2E6AAFCB007F475F /* ExtrasBudget.swift */; };
+		C4CBBAD52E6AB2D3007F475F /* BudgetSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CBBAD42E6AB2D3007F475F /* BudgetSection.swift */; };
+		C4CBBAD72E6AB2EB007F475F /* EmptyStateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CBBAD62E6AB2EB007F475F /* EmptyStateView.swift */; };
+		C4CBBAD92E6AB2FD007F475F /* FloatingActionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CBBAD82E6AB2FD007F475F /* FloatingActionButton.swift */; };
+		C4CBBADB2E6AB315007F475F /* HeaderSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CBBADA2E6AB315007F475F /* HeaderSection.swift */; };
+		C4CBBADD2E6AB32B007F475F /* HeroHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CBBADC2E6AB32B007F475F /* HeroHeader.swift */; };
+		C4CBBADF2E6AB33C007F475F /* PlanCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CBBADE2E6AB33C007F475F /* PlanCard.swift */; };
+		C4CBBAE12E6AB34A007F475F /* TabButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CBBAE02E6AB34A007F475F /* TabButton.swift */; };
+		C4CBBAE32E6AB357007F475F /* TimelineSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CBBAE22E6AB357007F475F /* TimelineSection.swift */; };
+		C4CBBAE52E6AB368007F475F /* TripCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CBBAE42E6AB368007F475F /* TripCard.swift */; };
+		C4CBBAE72E6AB631007F475F /* FormHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CBBAE62E6AB631007F475F /* FormHeader.swift */; };
+		C4CBBAE92E6AB646007F475F /* DestinationCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CBBAE82E6AB646007F475F /* DestinationCard.swift */; };
+		C4CBBAEB2E6AB658007F475F /* DatesCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CBBAEA2E6AB658007F475F /* DatesCard.swift */; };
+		C4CBBAED2E6AB66E007F475F /* BudgetSummaryCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CBBAEC2E6AB66E007F475F /* BudgetSummaryCard.swift */; };
+		C4CBBAEF2E6AB694007F475F /* PlansCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CBBAEE2E6AB694007F475F /* PlansCard.swift */; };
+		C4CBBAF12E6AB6AD007F475F /* SaveButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CBBAF02E6AB6AD007F475F /* SaveButton.swift */; };
+		C4CBBAFD2E6ACAA2007F475F /* BackgroundGradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CBBAFC2E6ACAA2007F475F /* BackgroundGradient.swift */; };
+		C4CBBAFF2E6ACAD7007F475F /* BudgetCategoryRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CBBAFE2E6ACAD7007F475F /* BudgetCategoryRow.swift */; };
+		C4CBBB012E6ACAED007F475F /* BudgetTotalRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CBBB002E6ACAED007F475F /* BudgetTotalRow.swift */; };
+		C4CBBB032E6ACB08007F475F /* ExistingPlansSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CBBB022E6ACB08007F475F /* ExistingPlansSection.swift */; };
+		C4CBBB052E6ACB1D007F475F /* PlanRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CBBB042E6ACB1D007F475F /* PlanRow.swift */; };
+		C4CBBB072E6ACB37007F475F /* AddNewPlanSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CBBB062E6ACB37007F475F /* AddNewPlanSection.swift */; };
+		C4CBBB092E6ACB4E007F475F /* CategoryPickerRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CBBB082E6ACB4E007F475F /* CategoryPickerRow.swift */; };
+		C4CBBB0B2E6ACB60007F475F /* AmountInputRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CBBB0A2E6ACB60007F475F /* AmountInputRow.swift */; };
+		C4CBBB0D2E6ACB78007F475F /* DateTimeActionRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CBBB0C2E6ACB78007F475F /* DateTimeActionRow.swift */; };
+		C4CBBB0F2E6ACB8B007F475F /* ValidationErrorsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CBBB0E2E6ACB8B007F475F /* ValidationErrorsList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +73,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C42E712F2E6ADC6F00625AC1 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		C4CBBA7E2E559FDD007F475F /* Assignment2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Assignment2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4CBBA812E559FDD007F475F /* Assignment2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assignment2App.swift; sourceTree = "<group>"; };
 		C4CBBA832E559FDD007F475F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -43,7 +83,45 @@
 		C4CBBA922E559FDF007F475F /* Assignment2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assignment2Tests.swift; sourceTree = "<group>"; };
 		C4CBBA982E559FDF007F475F /* Assignment2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Assignment2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4CBBA9C2E559FDF007F475F /* Assignment2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assignment2UITests.swift; sourceTree = "<group>"; };
-		C4CBBA9E2E559FDF007F475F /* Assignment2UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assignment2UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C4CBBAB12E55ABB6007F475F /* Itinerary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Itinerary.swift; sourceTree = "<group>"; };
+		C4CBBAB32E55ABF9007F475F /* ItineraryProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItineraryProtocol.swift; sourceTree = "<group>"; };
+		C4CBBAB52E55AC31007F475F /* ItineraryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItineraryViewModel.swift; sourceTree = "<group>"; };
+		C4CBBAB82E55AD08007F475F /* ItineraryListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItineraryListView.swift; sourceTree = "<group>"; };
+		C4CBBABA2E55AD24007F475F /* AddItineraryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddItineraryView.swift; sourceTree = "<group>"; };
+		C4CBBABC2E55B06A007F475F /* Plan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Plan.swift; sourceTree = "<group>"; };
+		C4CBBABE2E55B07A007F475F /* Budget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Budget.swift; sourceTree = "<group>"; };
+		C4CBBAC02E655B17007F475F /* ItineraryDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItineraryDetailView.swift; sourceTree = "<group>"; };
+		C4CBBAC22E6AAD58007F475F /* EditItineraryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditItineraryView.swift; sourceTree = "<group>"; };
+		C4CBBAC42E6AAF63007F475F /* BudgetCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BudgetCategory.swift; sourceTree = "<group>"; };
+		C4CBBAC62E6AAF7E007F475F /* AccommodationBudget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccommodationBudget.swift; sourceTree = "<group>"; };
+		C4CBBAC82E6AAF99007F475F /* FoodDrinkBudget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodDrinkBudget.swift; sourceTree = "<group>"; };
+		C4CBBACA2E6AAFB3007F475F /* TransportBudget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransportBudget.swift; sourceTree = "<group>"; };
+		C4CBBACC2E6AAFCB007F475F /* ExtrasBudget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtrasBudget.swift; sourceTree = "<group>"; };
+		C4CBBAD42E6AB2D3007F475F /* BudgetSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BudgetSection.swift; sourceTree = "<group>"; };
+		C4CBBAD62E6AB2EB007F475F /* EmptyStateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyStateView.swift; sourceTree = "<group>"; };
+		C4CBBAD82E6AB2FD007F475F /* FloatingActionButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingActionButton.swift; sourceTree = "<group>"; };
+		C4CBBADA2E6AB315007F475F /* HeaderSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderSection.swift; sourceTree = "<group>"; };
+		C4CBBADC2E6AB32B007F475F /* HeroHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroHeader.swift; sourceTree = "<group>"; };
+		C4CBBADE2E6AB33C007F475F /* PlanCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanCard.swift; sourceTree = "<group>"; };
+		C4CBBAE02E6AB34A007F475F /* TabButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabButton.swift; sourceTree = "<group>"; };
+		C4CBBAE22E6AB357007F475F /* TimelineSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimelineSection.swift; sourceTree = "<group>"; };
+		C4CBBAE42E6AB368007F475F /* TripCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripCard.swift; sourceTree = "<group>"; };
+		C4CBBAE62E6AB631007F475F /* FormHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormHeader.swift; sourceTree = "<group>"; };
+		C4CBBAE82E6AB646007F475F /* DestinationCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestinationCard.swift; sourceTree = "<group>"; };
+		C4CBBAEA2E6AB658007F475F /* DatesCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatesCard.swift; sourceTree = "<group>"; };
+		C4CBBAEC2E6AB66E007F475F /* BudgetSummaryCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BudgetSummaryCard.swift; sourceTree = "<group>"; };
+		C4CBBAEE2E6AB694007F475F /* PlansCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlansCard.swift; sourceTree = "<group>"; };
+		C4CBBAF02E6AB6AD007F475F /* SaveButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveButton.swift; sourceTree = "<group>"; };
+		C4CBBAFC2E6ACAA2007F475F /* BackgroundGradient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundGradient.swift; sourceTree = "<group>"; };
+		C4CBBAFE2E6ACAD7007F475F /* BudgetCategoryRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BudgetCategoryRow.swift; sourceTree = "<group>"; };
+		C4CBBB002E6ACAED007F475F /* BudgetTotalRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BudgetTotalRow.swift; sourceTree = "<group>"; };
+		C4CBBB022E6ACB08007F475F /* ExistingPlansSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExistingPlansSection.swift; sourceTree = "<group>"; };
+		C4CBBB042E6ACB1D007F475F /* PlanRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanRow.swift; sourceTree = "<group>"; };
+		C4CBBB062E6ACB37007F475F /* AddNewPlanSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewPlanSection.swift; sourceTree = "<group>"; };
+		C4CBBB082E6ACB4E007F475F /* CategoryPickerRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryPickerRow.swift; sourceTree = "<group>"; };
+		C4CBBB0A2E6ACB60007F475F /* AmountInputRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmountInputRow.swift; sourceTree = "<group>"; };
+		C4CBBB0C2E6ACB78007F475F /* DateTimeActionRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateTimeActionRow.swift; sourceTree = "<group>"; };
+		C4CBBB0E2E6ACB8B007F475F /* ValidationErrorsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidationErrorsList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +152,7 @@
 		C4CBBA752E559FDD007F475F = {
 			isa = PBXGroup;
 			children = (
+				C42E712F2E6ADC6F00625AC1 /* README.md */,
 				C4CBBA802E559FDD007F475F /* Assignment2 */,
 				C4CBBA912E559FDF007F475F /* Assignment2Tests */,
 				C4CBBA9B2E559FDF007F475F /* Assignment2UITests */,
@@ -94,8 +173,7 @@
 		C4CBBA802E559FDD007F475F /* Assignment2 */ = {
 			isa = PBXGroup;
 			children = (
-				C4CBBAB02E55A05B007F475F /* Resources */,
-				C4CBBAAF2E55A053007F475F /* Utilities */,
+				C4CBBAD32E6AB2C0007F475F /* Components */,
 				C4CBBAAE2E55A04A007F475F /* Views */,
 				C4CBBAAD2E55A042007F475F /* ViewModels */,
 				C4CBBAAC2E55A03A007F475F /* Protocols */,
@@ -128,7 +206,6 @@
 			isa = PBXGroup;
 			children = (
 				C4CBBA9C2E559FDF007F475F /* Assignment2UITests.swift */,
-				C4CBBA9E2E559FDF007F475F /* Assignment2UITestsLaunchTests.swift */,
 			);
 			path = Assignment2UITests;
 			sourceTree = "<group>";
@@ -136,6 +213,14 @@
 		C4CBBAAB2E55A031007F475F /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				C4CBBAB12E55ABB6007F475F /* Itinerary.swift */,
+				C4CBBABC2E55B06A007F475F /* Plan.swift */,
+				C4CBBABE2E55B07A007F475F /* Budget.swift */,
+				C4CBBAC42E6AAF63007F475F /* BudgetCategory.swift */,
+				C4CBBAC62E6AAF7E007F475F /* AccommodationBudget.swift */,
+				C4CBBAC82E6AAF99007F475F /* FoodDrinkBudget.swift */,
+				C4CBBACA2E6AAFB3007F475F /* TransportBudget.swift */,
+				C4CBBACC2E6AAFCB007F475F /* ExtrasBudget.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -143,6 +228,7 @@
 		C4CBBAAC2E55A03A007F475F /* Protocols */ = {
 			isa = PBXGroup;
 			children = (
+				C4CBBAB32E55ABF9007F475F /* ItineraryProtocol.swift */,
 			);
 			path = Protocols;
 			sourceTree = "<group>";
@@ -150,6 +236,7 @@
 		C4CBBAAD2E55A042007F475F /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				C4CBBAB52E55AC31007F475F /* ItineraryViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -157,22 +244,44 @@
 		C4CBBAAE2E55A04A007F475F /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				C4CBBAB82E55AD08007F475F /* ItineraryListView.swift */,
+				C4CBBABA2E55AD24007F475F /* AddItineraryView.swift */,
+				C4CBBAC02E655B17007F475F /* ItineraryDetailView.swift */,
+				C4CBBAC22E6AAD58007F475F /* EditItineraryView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
 		};
-		C4CBBAAF2E55A053007F475F /* Utilities */ = {
+		C4CBBAD32E6AB2C0007F475F /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				C4CBBAD42E6AB2D3007F475F /* BudgetSection.swift */,
+				C4CBBAD62E6AB2EB007F475F /* EmptyStateView.swift */,
+				C4CBBAD82E6AB2FD007F475F /* FloatingActionButton.swift */,
+				C4CBBADA2E6AB315007F475F /* HeaderSection.swift */,
+				C4CBBADC2E6AB32B007F475F /* HeroHeader.swift */,
+				C4CBBADE2E6AB33C007F475F /* PlanCard.swift */,
+				C4CBBAE02E6AB34A007F475F /* TabButton.swift */,
+				C4CBBAE22E6AB357007F475F /* TimelineSection.swift */,
+				C4CBBAE42E6AB368007F475F /* TripCard.swift */,
+				C4CBBAE62E6AB631007F475F /* FormHeader.swift */,
+				C4CBBAE82E6AB646007F475F /* DestinationCard.swift */,
+				C4CBBAEA2E6AB658007F475F /* DatesCard.swift */,
+				C4CBBAEE2E6AB694007F475F /* PlansCard.swift */,
+				C4CBBAF02E6AB6AD007F475F /* SaveButton.swift */,
+				C4CBBAEC2E6AB66E007F475F /* BudgetSummaryCard.swift */,
+				C4CBBAFC2E6ACAA2007F475F /* BackgroundGradient.swift */,
+				C4CBBAFE2E6ACAD7007F475F /* BudgetCategoryRow.swift */,
+				C4CBBB002E6ACAED007F475F /* BudgetTotalRow.swift */,
+				C4CBBB022E6ACB08007F475F /* ExistingPlansSection.swift */,
+				C4CBBB042E6ACB1D007F475F /* PlanRow.swift */,
+				C4CBBB062E6ACB37007F475F /* AddNewPlanSection.swift */,
+				C4CBBB082E6ACB4E007F475F /* CategoryPickerRow.swift */,
+				C4CBBB0A2E6ACB60007F475F /* AmountInputRow.swift */,
+				C4CBBB0C2E6ACB78007F475F /* DateTimeActionRow.swift */,
+				C4CBBB0E2E6ACB8B007F475F /* ValidationErrorsList.swift */,
 			);
-			path = Utilities;
-			sourceTree = "<group>";
-		};
-		C4CBBAB02E55A05B007F475F /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Resources;
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -279,6 +388,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C42E71302E6ADC6F00625AC1 /* README.md in Resources */,
 				C4CBBA892E559FDF007F475F /* Preview Assets.xcassets in Resources */,
 				C4CBBA862E559FDF007F475F /* Assets.xcassets in Resources */,
 			);
@@ -305,8 +415,47 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4CBBADB2E6AB315007F475F /* HeaderSection.swift in Sources */,
+				C4CBBAFD2E6ACAA2007F475F /* BackgroundGradient.swift in Sources */,
+				C4CBBAFF2E6ACAD7007F475F /* BudgetCategoryRow.swift in Sources */,
+				C4CBBAD72E6AB2EB007F475F /* EmptyStateView.swift in Sources */,
+				C4CBBAC52E6AAF63007F475F /* BudgetCategory.swift in Sources */,
+				C4CBBABD2E55B06A007F475F /* Plan.swift in Sources */,
+				C4CBBB072E6ACB37007F475F /* AddNewPlanSection.swift in Sources */,
+				C4CBBAE52E6AB368007F475F /* TripCard.swift in Sources */,
+				C4CBBAC72E6AAF7E007F475F /* AccommodationBudget.swift in Sources */,
+				C4CBBB0B2E6ACB60007F475F /* AmountInputRow.swift in Sources */,
+				C4CBBB0F2E6ACB8B007F475F /* ValidationErrorsList.swift in Sources */,
+				C4CBBAB22E55ABB6007F475F /* Itinerary.swift in Sources */,
+				C4CBBB032E6ACB08007F475F /* ExistingPlansSection.swift in Sources */,
 				C4CBBA842E559FDD007F475F /* ContentView.swift in Sources */,
+				C4CBBB052E6ACB1D007F475F /* PlanRow.swift in Sources */,
+				C4CBBAC12E655B17007F475F /* ItineraryDetailView.swift in Sources */,
 				C4CBBA822E559FDD007F475F /* Assignment2App.swift in Sources */,
+				C4CBBAE72E6AB631007F475F /* FormHeader.swift in Sources */,
+				C4CBBAB42E55ABF9007F475F /* ItineraryProtocol.swift in Sources */,
+				C4CBBABF2E55B07A007F475F /* Budget.swift in Sources */,
+				C4CBBAF12E6AB6AD007F475F /* SaveButton.swift in Sources */,
+				C4CBBAEB2E6AB658007F475F /* DatesCard.swift in Sources */,
+				C4CBBAC92E6AAF99007F475F /* FoodDrinkBudget.swift in Sources */,
+				C4CBBAE32E6AB357007F475F /* TimelineSection.swift in Sources */,
+				C4CBBAE92E6AB646007F475F /* DestinationCard.swift in Sources */,
+				C4CBBB012E6ACAED007F475F /* BudgetTotalRow.swift in Sources */,
+				C4CBBADF2E6AB33C007F475F /* PlanCard.swift in Sources */,
+				C4CBBACB2E6AAFB3007F475F /* TransportBudget.swift in Sources */,
+				C4CBBAC32E6AAD58007F475F /* EditItineraryView.swift in Sources */,
+				C4CBBABB2E55AD24007F475F /* AddItineraryView.swift in Sources */,
+				C4CBBAED2E6AB66E007F475F /* BudgetSummaryCard.swift in Sources */,
+				C4CBBAEF2E6AB694007F475F /* PlansCard.swift in Sources */,
+				C4CBBB092E6ACB4E007F475F /* CategoryPickerRow.swift in Sources */,
+				C4CBBAB92E55AD08007F475F /* ItineraryListView.swift in Sources */,
+				C4CBBAD52E6AB2D3007F475F /* BudgetSection.swift in Sources */,
+				C4CBBAB62E55AC31007F475F /* ItineraryViewModel.swift in Sources */,
+				C4CBBADD2E6AB32B007F475F /* HeroHeader.swift in Sources */,
+				C4CBBAD92E6AB2FD007F475F /* FloatingActionButton.swift in Sources */,
+				C4CBBB0D2E6ACB78007F475F /* DateTimeActionRow.swift in Sources */,
+				C4CBBACD2E6AAFCB007F475F /* ExtrasBudget.swift in Sources */,
+				C4CBBAE12E6AB34A007F475F /* TabButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -322,7 +471,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C4CBBA9F2E559FDF007F475F /* Assignment2UITestsLaunchTests.swift in Sources */,
 				C4CBBA9D2E559FDF007F475F /* Assignment2UITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
